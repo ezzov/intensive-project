@@ -19,6 +19,7 @@ public class HelloController {
 		messages.add("we add one more line");
 		messages.add("OMG! It finally works");
 		messages.add("Does it still work?");
+		messages.add("One week later..");
 		model.addAttribute("messages", messages);
 		return "index";
 	}
